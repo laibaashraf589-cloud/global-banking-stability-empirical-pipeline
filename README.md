@@ -8,7 +8,7 @@ A cross-country empirical econometrics pipeline investigating whether financial 
 
 **Did high-income economies' banking sectors remain more stable than emerging market economies' banking sectors after the 2008 and 2020 systemic shocks?**
 
-This is tested using **Bank Z-score** — the standard academic measure of banking sector stability. It combines a banking system's capital buffer and profitability with the volatility of its returns into a single "distance to insolvency" score. A higher Z-score means a lower probability of the banking system defaulting; a falling Z-score signals rising fragility.
+This is tested using **Bank Z-score** the standard academic measure of banking sector stability. It combines a banking system's capital buffer and profitability with the volatility of its returns into a single "distance to insolvency" score. A higher Z-score means a lower probability of the banking system defaulting; a falling Z-score signals rising fragility.
 
 ---
 
@@ -37,7 +37,8 @@ This is tested using **Bank Z-score** — the standard academic measure of banki
 ## Key Figures
 
 ### Figure 1 — Global Average Bank Z-score, 2000–2023
-![Figure 1 — Global Average Bank Z-score](outputs/figures/fig1_global_zscore_trend.png)
+![Figure 1 — Global Average Bank Z-score]<img width="2658" height="1461" alt="fig1_global_zscore_trend" src="https://github.com/user-attachments/assets/3cdb6c4f-a888-4702-9a9d-fa13eb3e986e" />
+
 * **What it shows:** The average Bank Z-score across all ~150 countries, plotted year by year, with the 2008 and 2020 crisis years marked by dashed vertical lines.
 * **What it answers:** The first, most basic question — did global banking stability actually change around these two events at all? This is the visual companion to the Chow structural break test (Table 2 in the results document): if the line visibly bends at 2008 and 2020, that's the pattern the formal statistical test is checking for significance.
 
