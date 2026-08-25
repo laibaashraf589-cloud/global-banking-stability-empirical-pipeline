@@ -37,28 +37,28 @@ This is tested using **Bank Z-score** the standard academic measure of banking s
 ## Key Figures
 
 ### Figure 1 — Global Average Bank Z-score, 2000–2023
-![Figure 1 — Global Average Bank Z-score] (<img width="2658" height="1461" alt="fig1_global_zscore_trend" src="https://github.com/user-attachments/assets/9b0343a3-da40-4dd4-9a49-8c6d854d48dc" />)
+![Figure 1 — Global Average Bank Z-score] <img width="2658" height="1461" alt="fig1_global_zscore_trend" src="https://github.com/user-attachments/assets/9b0343a3-da40-4dd4-9a49-8c6d854d48dc" />
 * **What it shows:** The average Bank Z-score across all ~150 countries, plotted year by year, with the 2008 and 2020 crisis years marked by dashed vertical lines.
 * **What it answers:** The first, most basic question — did global banking stability actually change around these two events at all? This is the visual companion to the Chow structural break test (Table 2 in the results document): if the line visibly bends at 2008 and 2020, that's the pattern the formal statistical test is checking for significance.
 
 ---
 
 ### Figure 2 — Event Study: Bank Z-score Around the 2008 GFC
-![Figure 2 — Event Study 2008 GFC] (<img width="2358" height="1461" alt="fig2_event_study_gfc" src="https://github.com/user-attachments/assets/fe3f6933-8d39-41ca-b8f9-0a9f0d10f888" />)
+![Figure 2 — Event Study 2008 GFC] <img width="2358" height="1461" alt="fig2_event_study_gfc" src="https://github.com/user-attachments/assets/fe3f6933-8d39-41ca-b8f9-0a9f0d10f888" />
 * **What it shows:** Two separate lines — High income and Emerging market — tracing the average Z-score from 3 years before to 3 years after 2008.
 * **What it answers:** This is the core visual evidence for the research question. If the two lines run roughly parallel before the crisis (supporting the DiD design's key assumption) and then visibly diverge after 2008 — with emerging markets falling further — that is a direct, year-by-year picture of financial development acting as a buffer.
 
 ---
 
 ### Figure 3 — Event Study: Bank Z-score Around 2020 COVID-19
-![Figure 3 — Event Study 2020 COVID-19] (<img width="2357" height="1461" alt="fig3_event_study_covid" src="https://github.com/user-attachments/assets/ed102851-5cde-4975-9727-f9ec3f58bb98" />)
+![Figure 3 — Event Study 2020 COVID-19] <img width="2357" height="1461" alt="fig3_event_study_covid" src="https://github.com/user-attachments/assets/ed102851-5cde-4975-9727-f9ec3f58bb98" />
 * **What it shows:** The same relative-year comparison, applied to the 2020 shock instead.
 * **What it answers:** Lets you compare whether the same buffering pattern shows up in a second, very different type of crisis (a health/liquidity shock rather than a financial-system-originated one) — strengthening or weakening confidence that the 2008 result reflects a general relationship, not a one-off coincidence.
 
 ---
 
 ### Figure 4 — Difference-in-Differences: Pre- vs Post-Crisis Bank Z-score
-![Figure 4 — Difference-in-Differences Bar Comparison] (<img width="3259" height="1693" alt="fig4_did_bar_comparison" src="https://github.com/user-attachments/assets/d06462f1-6046-450f-89bb-6667450cd982" />)
+![Figure 4 — Difference-in-Differences Bar Comparison] <img width="3259" height="1693" alt="fig4_did_bar_comparison" src="https://github.com/user-attachments/assets/d06462f1-6046-450f-89bb-6667450cd982" />
 * **What it shows:** Bar chart comparing each group's average Z-score before vs after each crisis, side by side for 2008 and 2020.
 * **What it answers:** This is the plain-language version of the DiD regression coefficient in Tables 4-5. The DiD estimate is essentially: *(how much the emerging-market bars drop) minus (how much the high-income bars drop)*. If the emerging-market post-crisis bar falls noticeably more than the high-income one, that visually is the causal effect the regression is quantifying.
 
