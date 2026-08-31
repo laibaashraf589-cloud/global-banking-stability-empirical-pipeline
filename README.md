@@ -144,6 +144,3 @@ source("02_generate_results_document.R")
 source("03_generate_figures.R")
 ```
 
-## Notes
-
-This project was built as an independent empirical practice pipeline, applying panel econometrics and causal identification methods (DiD, event study, structural break testing) to a real, large-scale cross-country dataset — as preparation for empirical work on an ongoing supervised research project, and to build applied research skills in both Python and R.
